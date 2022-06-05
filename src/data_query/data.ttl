@@ -1,0 +1,262 @@
+@prefix id: <https://carshop.com/> .
+@prefix item: <https://carshop.com/ns/item#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+#Devices
+
+id:A001
+    item:NamaMobil       "City Hatchback" ;
+    item:Merk            "Honda" ;
+    item:Jenis           "Hatchback" ;
+    item:BahanBakar      "Bensin" ;
+    item:TipeDrive       "Front Wheel Drive" ;
+    item:Kecepatan       "1498 CC" ;
+    item:Torsi           "4300 rpm" ;
+    item:UkuranBan       "16 Inchi" ;
+    item:MaterialVelg    "Alloy wheel" ;
+    item:Harga           "RP 333.6 Juta,-" .
+
+id:A002
+    item:NamaMobil       "City Sedan" ;
+    item:Merk            "Honda" ;
+    item:Jenis           "Sedan" ;
+    item:BahanBakar      "Bensin" ;
+    item:TipeDrive       "Front Wheel Drive" ;
+    item:Kecepatan       "1498 CC" ;
+    item:Torsi           "4300 rpm" ;
+    item:UkuranBan       "16 Inchi" ;
+    item:MaterialVelg    "Alloy Wheel" ;
+    item:Harga           "RP 365.4 Juta,-" .
+
+id:A003
+    item:NamaMobil       "Accord" ;
+    item:Merk            "Honda" ;
+    item:Jenis           "Sedan" ;
+    item:BahanBakar      "Bensin" ;
+    item:TipeDrive       "Front Wheel Drive" ;
+    item:Kecepatan       "1498 CC" ;
+    item:Torsi           "4800 rpm" ;
+    item:UkuranBan       "18 Inchi" ;
+    item:MaterialVelg    "Alloy Wheel" ;
+    item:Harga           "RP 770.9 Juta,-" .
+
+id:A004
+    item:NamaMobil       "BR-V" ;
+    item:Merk            "Honda" ;
+    item:Jenis           "MPV" ;
+    item:BahanBakar      "Bensin" ;
+    item:TipeDrive       "Front Wheel Drive" ;
+    item:Kecepatan       "1498 CC" ;
+    item:Torsi           "4300 rpm" ;
+    item:UkuranBan       "16 Inchi" ;
+    item:MaterialVelg    "Alloy Wheen" ;
+    item:Harga           "RP 281.1 Juta,-" .
+
+id:A005
+    item:NamaMobil       "Brio" ;
+    item:Merk            "Honda" ;
+    item:Jenis           "Hatchback" ;
+    item:BahanBakar      "Bensin" ;
+    item:TipeDrive       "Front Wheel Drive" ;
+    item:Kecepatan       "1199 CC" ;
+    item:Torsi           "4800 rpm" ;
+    item:UkuranBan       "14 Inchi" ;
+    item:MaterialVelg    "Trim Wheel" ;
+    item:Harga           "RP 155.7 Juta,-" .
+
+id:A006
+    item:NamaMobil       "Civic Sedan" ;
+    item:Merk            "Honda" ;
+    item:Jenis           "Sedan" ;
+    item:BahanBakar      "Bensin" ;
+    item:TipeDrive       "Front Wheel Drive" ;
+    item:Kecepatan       "1498 CC" ;
+    item:Torsi           "4500 rpm" ;
+    item:UkuranBan       "17 Inchi" ;
+    item:MaterialVelg    "Alloy Wheel" ;
+    item:Harga           "RP 584.9 Juta,-" .
+
+id:A007
+    item:NamaMobil       "CR-V" ;
+    item:Merk            "Honda" ;
+    item:Jenis           "SUV" ;
+    item:BahanBakar      "Bensin" ;
+    item:TipeDrive       "Front Wheel Drive" ;
+    item:Kecepatan       "1997 CC" ;
+    item:Torsi           "4300 rpm" ;
+    item:UkuranBan       "18 Inchi" ;
+    item:MaterialVelg    "Alloy Wheel" ;
+    item:Harga           "RP 515.9 Juta,-" .
+
+id:A008
+    item:NamaMobil       "Civic Type R" ;
+    item:Merk            "Honda" ;
+    item:Jenis           "Sedan" ;
+    item:BahanBakar      "Bensin" ;
+    item:TipeDrive       "Front Wheel Drive" ;
+    item:Kecepatan       "1996 CC" ;
+    item:Torsi           "4500 rpm" ;
+    item:UkuranBan       "20 Inchi" ;
+    item:MaterialVelg    "Alloy Wheel" ;
+    item:Harga           "RP 1.177 Miliar,-" .
+
+id:A009
+    item:NamaMobil       "Civic Hatchback" ;
+    item:Merk            "Honda" ;
+    item:Jenis           "Hatchback" ;
+    item:BahanBakar      "Bensin" ;
+    item:TipeDrive       "Front Wheel Drive" ;
+    item:Kecepatan       "1498 CC" ;
+    item:Torsi           "5500 rpm" ;
+    item:UkuranBan       "17 Inchi" ;
+    item:MaterialVelg    "Alloy Wheel" ;
+    item:Harga           "RP 512.8 Juta,-" .
+
+id:A010
+    item:NamaMobil       "HR-V" ;
+    item:Merk            "Honda" ;
+    item:Jenis           "SUV" ;
+    item:BahanBakar      "Bensin" ;
+    item:TipeDrive       "Front Wheel Drive" ;
+    item:Kecepatan       "1497 CC" ;
+    item:Torsi           "4300 rpm" ;
+    item:UkuranBan       "17 Inchi" ;
+    item:MaterialVelg    "Alloy Wheel" ;
+    item:Harga           "RP 362.9 Juta,-" .
+
+id:A011
+    item:NamaMobil       "Jazz" ;
+    item:Merk            "Honda" ;
+    item:Jenis           "Hatchback" ;
+    item:BahanBakar      "Bensin" ;
+    item:TipeDrive       "Front Wheel Drive" ;
+    item:Kecepatan       "1497 CC" ;
+    item:Torsi           "4600 rpm" ;
+    item:UkuranBan       "15 Inchi" ;
+    item:MaterialVelg    "Alloy Wheel" ;
+    item:Harga           "RP 256.5 Juta,-" .
+
+id:A012
+    item:NamaMobil       "Mobilio" ;
+    item:Merk            "Honda" ;
+    item:Jenis           "Wagon" ;
+    item:BahanBakar      "Bensin" ;
+    item:TipeDrive       "Front Wheel Drive" ;
+    item:Kecepatan       "1500 CC" ;
+    item:Torsi           "4600 rpm" ;
+    item:UkuranBan       "15 Inchi" ;
+    item:MaterialVelg    "Alloy Wheel" ;
+    item:Harga           "RP 229.9 Juta,-" .
+
+id:A013
+    item:NamaMobil       "Odyssey" ;
+    item:Merk            "Honda" ;
+    item:Jenis           "MPV" ;
+    item:BahanBakar      "Bensin" ;
+    item:TipeDrive       "Front Wheel Drive" ;
+    item:Kecepatan       "2356 CC" ;
+    item:Torsi           "4000 rpm" ;
+    item:UkuranBan       "17 Inchi" ;
+    item:MaterialVelg    "Alloy Wheel" ;
+    item:Harga           "RP 899 Juta,-" .
+
+id:A014
+    item:NamaMobil       "Yaris" ;
+    item:Merk            "Toyota" ;
+    item:Jenis           "Hatchback" ;
+    item:BahanBakar      "Bensin" ;
+    item:TipeDrive       "Front Wheel Drive" ;
+    item:Kecepatan       "1497 CC" ;
+    item:Torsi           "4200 rpm" ;
+    item:UkuranBan       "16 Inchi" ;
+    item:MaterialVelg    "Alloy Wheel" ;
+    item:Harga           "RP 292.4 Juta,-" .
+
+id:A015
+    item:NamaMobil       "Agya" ;
+    item:Merk            "Toyota" ;
+    item:Jenis           "Hatchback" ;
+    item:BahanBakar      "Bensin" ;
+    item:TipeDrive       "Front Wheel Drive" ;
+    item:Kecepatan       "1200 CC" ;
+    item:Torsi           "4200 rpm" ;
+    item:UkuranBan       "14 Inchi" ;
+    item:MaterialVelg    "Alloy Wheel" ;
+    item:Harga           "RP 155.5 Juta,-" .
+
+id:A016
+    item:NamaMobil       "Agya" ;
+    item:Merk            "Toyota" ;
+    item:Jenis           "MPV" ;
+    item:BahanBakar      "Bensin" ;
+    item:TipeDrive       "Front Wheel Drive" ;
+    item:Kecepatan       "2500 CC" ;
+    item:Torsi           "4100 rpm" ;
+    item:UkuranBan       "18 Inchi" ;
+    item:MaterialVelg    "Alloy Wheel" ;
+    item:Harga           "RP 1.147 Miliar,-" .
+
+id:A017
+    item:NamaMobil       "Avanza" ;
+    item:Merk            "Toyota" ;
+    item:Jenis           "MPV" ;
+    item:BahanBakar      "Bensin" ;
+    item:TipeDrive       "Front Wheel Drive" ;
+    item:Kecepatan       "1300 CC" ;
+    item:Torsi           "4200 rpm" ;
+    item:UkuranBan       "15 Inchi" ;
+    item:MaterialVelg    "Alloy Wheel" ;
+    item:Harga           "RP 233.1 Juta,-" .
+
+id:A018
+    item:NamaMobil       "Ioniq" ;
+    item:Merk            "Hyundai" ;
+    item:Jenis           "BEV" ;
+    item:BahanBakar      "Listrik" ;
+    item:TipeDrive       "Front Wheel Drive" ;
+    item:Kecepatan       "134 HP" ;
+    item:Torsi           "295 Nm" ;
+    item:UkuranBan       "16 Inchi" ;
+    item:MaterialVelg    "Alloy Wheel" ;
+    item:Harga           "RP 682 Juta,-" .
+
+id:A019
+    item:NamaMobil       "Staria" ;
+    item:Merk            "Hyundai" ;
+    item:Jenis           "MPV" ;
+    item:BahanBakar      "Bensin" ;
+    item:TipeDrive       "Front Wheel Drive" ;
+    item:Kecepatan       "174 HP" ;
+    item:Torsi           "2500 rpm" ;
+    item:UkuranBan       "18 Inchi" ;
+    item:MaterialVelg    "Alloy Wheel" ;
+    item:Harga           "RP 896 Juta,-" .
+
+id:A020
+    item:NamaMobil       "Creta" ;
+    item:Merk            "Hyundai" ;
+    item:Jenis           "SUV" ;
+    item:BahanBakar      "Bensin" ;
+    item:TipeDrive       "Front Wheel Drive" ;
+    item:Kecepatan       "113 HP" ;
+    item:Torsi           "143.8 Nm" ;
+    item:UkuranBan       "17 Inchi" ;
+    item:MaterialVelg    "Alloy Wheel" ;
+    item:Harga           "RP 281.5 Juta,-" .
+
+id:A021
+    item:NamaMobil       "Kona" ;
+    item:Merk            "Hyundai" ;
+    item:Jenis           "SUV" ;
+    item:BahanBakar      "Listrik" ;
+    item:TipeDrive       "Front Wheel Drive" ;
+    item:Kecepatan       "1998 CC" ;
+    item:Torsi           "395 Nm" ;
+    item:UkuranBan       "17 Inchi" ;
+    item:MaterialVelg    "Alloy Wheel" ;
+    item:Harga           "RP 742 Juta,-" .
+
+
+
+
+

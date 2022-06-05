@@ -1,0 +1,29 @@
+PREFIX id: <https://carshop.com/>
+PREFIX item: <https://carshop.com/ns/item#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+SELECT ?NamaMobil ?Merk ?Jenis ?BahanBakar ?TipeDrive ?Kecepatan ?Torsi ?UkuranBan ?MaterialVelg ?Harga
+WHERE
+{ 
+    ?items
+        item:NamaMobil      ?NamaMobil ;
+        item:Merk           ?Merk ;
+        item:Jenis          ?Jenis ;
+        item:BahanBakar     ?BahanBakar ;
+        item:TipeDrive      ?TipeDrive ;
+        item:Kecepatan      ?Kecepatan ;
+        item:Torsi          ?Torsi ;
+        item:UkuranBan      ?UkuranBan ;
+        item:MaterialVelg   ?MaterialVelg ;
+        item:Harga          ?Harga .
+
+FILTER 
+        (regex (?NamaMobil, '$test', 'i') 
+        || regex (?Merk, '$test', 'i') 
+        || regex (?Jenis, '$test', 'i') 
+        || regex (?BahanBakar, '$test', 'i')
+        || regex (?TipeDrive, '$test', 'i')
+        || regex (?MaterialVelg, '$test', 'i')
+        || regex (?Torsi, '$test', 'i')
+        || regex (?Kecepatan, '$test', 'i'))
+}
